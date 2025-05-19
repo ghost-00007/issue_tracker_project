@@ -1,0 +1,37 @@
+# 
+
+
+# *\migrations
+# *\media
+# settings.py
+# .venv
+
+
+
+
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+*.egg-info/
+
+# Python-related
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+
+# Django-related
+db.sqlite3
+*.log
+
+# Migrations
+migrations/
+
+# Static and media files
+/staticfiles/
+/media/
