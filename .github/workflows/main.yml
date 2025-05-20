@@ -9,7 +9,7 @@ env:
   APP_NAME: issuetrackerdev
   APP_DIR: /home/ec2-user/apps/
   DEPLOY_DIR: /home/ec2-user/apps/issuetrackerdev
-  WORKING_DIR: /home/ec2-user/apps/issuetrackerdev/issue_tracker_project/issue_tracker_project/
+  WORKING_DIR: /home/ec2-user/apps/issuetrackerdev/issue_tracker_project/
   MANAGE_PATH: /home/ec2-user/apps/issuetrackerdev/issue_tracker_project/
   GUNICORN_SERVICE: issuetrackerdev.service
   GUNICORN_SOCKET: issuetrackerdev.socket
