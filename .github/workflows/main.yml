@@ -13,7 +13,7 @@ env:
   MANAGE_PATH: /home/ec2-user/apps/issuetrackerdev/issue_tracker_project
   GUNICORN_SERVICE: issuetrackerdev_gunicorn.service
   GUNICORN_SOCKET: issuetrackerdev_gunicorn.socket
-  NGINX_CONF_SRC: /home/ec2-user/service/issuetrackerdev
+  NGINX_CONF_SRC: /home/ec2-user/service/issuetrackerdevbk
   NGINX_CONF_DEST: /etc/nginx/sites-available/issuetrackerdev
 
 jobs:
